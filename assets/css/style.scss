@@ -1,0 +1,27 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* 还原衬线字体与学术配色 */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #222;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #334e68;
+}
+
+header {
+  width: 170px;
+  float: left;
+}
+
+section {
+  width: 700px;
+  float: right;
+  border-left: 1px solid #e5e5e5;
+  padding-left: 30px;
+}
